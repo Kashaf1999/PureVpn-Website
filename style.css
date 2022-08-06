@@ -1,0 +1,641 @@
+header {
+    position: absolute;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(241, 15, 15);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(241, 15, 15);
+}
+.navbar-expand-lg{
+    padding: 0 30px;
+}
+.nav-item{
+    padding: 0 0 0 10px;
+}
+.banner {
+    background-image: url(images/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0 50px 0;
+}
+
+.container-bn {
+    width: 100%;
+    max-width: 407px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bn {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background-color: #FF0024;
+    color: white;
+    border-radius: 35px;
+    border-style: none;
+    padding: 15px 30px;
+}
+
+.useBtn {
+    background-color: #28c675;
+    color: white;
+    border: 1px solid transparent;
+    padding: 20px 70px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn2 {
+    display: flex;
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-style: none;
+}
+
+.maparrow {
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+}
+
+.arrow-right {
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+    border-radius: 30px;
+}
+
+.tech {
+    background-color: rgba(234, 230, 237, 0.3);
+}
+
+.advertise {
+    padding: 50px;
+}
+
+.users {
+    background-color: rgba(234, 230, 237, 0.3);
+    padding: 50px;
+}
+
+.users .userOs {
+    margin: 30px 0;
+}
+
+.ulOS {
+    list-style: none;
+    max-width: 811px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.users .userOs .ulOS .liOS {
+    display: inline-block;
+    padding: 20px;
+}
+
+.users .userOs .OS {
+    background-image: url("images/99898_supported_devices_new.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 34px;
+    margin: 0 0 10px;
+}
+
+.users .win {
+    background-position: 0 -401px;
+}
+
+.users .mac {
+    background-position: 0 -264px;
+}
+
+.users .and {
+    background-position: 0 -493px;
+}
+
+.users .iphone {
+    background-position: 0 -55px;
+}
+
+.users .ipad {
+    background-position: 0 -55px;
+}
+
+.users .linux {
+    background-position: 0 -541px;
+}
+
+.users .chrome {
+    background-position: 0 -839px;
+}
+
+.users .firefox {
+    background-position: 0 -357px;
+}
+
+.Compat {
+    max-width: 850px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.Compat .comLI {
+    padding: 10px;
+}
+
+.Compat .comIcons {
+    background-image: url("images/99898_supported_devices_new.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 34px;
+    margin: 0 0 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.Compat .Router {
+    background-position: 0 -590px;
+}
+
+.Compat .AndroidTV {
+    background-position: 0 -172px;
+}
+
+.Compat .Amazon {
+    background-position: 0 -640px;
+}
+
+.Compat .Microsoft {
+    background-position: 0 -400px;
+}
+
+.Compat .Kodi {
+    background-position: 0 -688px;
+}
+
+.Compat .Roku {
+    background-position: 0 6px;
+}
+
+.Compat .Boxee {
+    background-position: 0 -739px;
+}
+
+.Compat .TvNow {
+    background-position: 0 -24px;
+}
+
+.Compat .Rasberry {
+    background-position: 0 -790px;
+}
+
+.Compat .ChromeCast {
+    background-position: 0 -839px;
+}
+
+.Compat .PlayStation {
+    background-position: 0 -220px;
+}
+
+.Compat .Xbox {
+    background-position: 0 -448px;
+}
+
+.ftr {
+    margin: 30px 0 50px;
+}
+
+.mlLogin {
+    background-position: -15px -15px;
+}
+
+.unDevice {
+    background-position: -105px -15px;
+}
+
+.intKill {
+    background-position: -195px -15px;
+}
+
+.logImg {
+    background-position: -285px -15px;
+}
+
+.splitImg {
+    background-position: -375px -15px;
+}
+
+.liveChat {
+    background-position: -465px -15px;
+}
+
+.Plan {
+    padding: 50px 0;
+}
+
+.planCol {
+    padding: 50px 0 50px 120px;
+}
+
+.includePlan {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.months {
+    font-size: 30px;
+}
+
+.Plan .planImg {    background-image: url("images/cart_image_fold_2021_sprite\ \(1\).webp");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.planUL {
+    list-style: none;
+    padding: 0;
+}
+
+.planLI {
+    display: inline-block;
+    margin: 11px 0;
+    max-width: 49%;
+    width: 100%;
+}
+
+.planBtn {
+    color: #329D6E;
+    background-color: #4C375C;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.dollar {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.package {
+    padding: 40px 0;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 5px 20px 10px #51565b;
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border: 1px solid transparent;
+    background-color: #3B254C;
+    border-radius: 50px;
+}
+
+.del {
+    padding-bottom: 30px;
+}
+
+.mlLogin {
+    background-position: -15px -15px;
+}
+
+.unDevice {
+    background-position: -105px -15px;
+}
+
+.intKill {
+    background-position: -195px -15px;
+}
+
+.logImg {
+    background-position: -285px -15px;
+}
+
+.splitImg {
+    background-position: -375px -15px;
+}
+
+.liveChat {
+    background-position: -465px -15px;
+}
+
+.features .icons {
+    background-image: url("images/Group-140.png");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin: 0 0 10px;
+}
+
+.features .icon-1 {
+    background-position: 0 0;
+}
+
+.features .icon-2 {
+    background-position: -90px -3px;
+}
+
+.features .icon-3 {
+    background-position: -180px -5px;
+}
+
+.features .icon-4 {
+    background-position: -270px 0;
+}
+
+.features .icon-5 {
+    background-position: -360px -5px;
+}
+
+.features .icon-6 {
+    background-position: -450px -6px;
+}
+
+.features .icon-7 {
+    background-position: -540px -7px;
+}
+
+.features .icon-8 {
+    background-position: -630px 0;
+}
+
+.mh {
+    min-height: 72px;
+}
+
+.map {
+    padding: 50px;
+    background-color: #F5F3F6;
+}
+
+.support {
+    padding: 50px;
+}
+
+.offer {
+    background: rgba(234, 230, 237, 0.3);
+    padding: 100px 0;
+}
+
+.fdbck {
+    padding: 30px;
+}
+
+.blog {
+    padding: 30px;
+    background-color: rgba(234, 230, 237, 0.3);
+}
+
+.rblog {
+    padding: 50px;
+}
+
+#btnblog {
+    padding-top: 50px;
+    border-style: none;
+}
+
+.colblog {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: #070218;
+    color: white;
+    padding: 50px 50px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.fa {
+    margin-right: 6px;
+    padding: 5px;
+    font-size: 32px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.maprow {
+    padding-top: 30px;
+}
+
+.ofrrow {
+    padding-top: 30px;
+}
+
+.feedback {
+    padding: 50px 0;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+}
+
+.optbtn {
+    border-radius: 50px !important;
+    border-style: none;
+}
+
+.maping {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bd {
+    border-left: 1px solid #AFAFAF;
+    border-right: 1px solid #AFAFAF;
+}
+.bdl{
+    border-right: 1px solid #AFAFAF;
+}
+
+.feedback .nav-pills .nav-link.active {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.feedback .nav-pills .nav-link {
+    color: black;
+}
+
+.feedback #pills-tab {
+    max-width: 250px;
+    background-color: #EAE6ED;
+    border-radius: 30px;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width:991px) {
+    #Bybtn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    #fastbtn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .bd {
+        border: none;
+    }
+
+    #advr {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #mdblog {
+        text-align: center;
+        margin: 20px auto;
+
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: black;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-collapse {
+        background-color: white!important;
+    }
+}
+
+@media (max-width:368px) {
+    .btn {
+        font-size: small;
+    }
+}
+
+@media (max-width:354px) {
+    .maping {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:335px) {
+    #mapbtn {
+        padding: 15px 8px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .ComUL {
+        max-width: 103px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .ComUL1 {
+        max-width: 110px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .ComUL2 {
+        max-width: 110px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .planUL {
+        width: 100%;
+        max-width: 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .package {
+        margin-top: 50px;
+        padding: 10px 0;
+        padding: 10px 10px;
+        max-width: 280px;
+    }
+
+    .planCol {
+        padding: 0;
+    }
+
+    .includePlan {
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    .useBtn {
+        background-color: #28c675;
+        color: white;
+        border: 1px solid transparent;
+        padding: 10px 10px;
+        border-radius: 50px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .ulOS {
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+        margin: 0 0 20px;
+        display: inline-block;
+    }
+
+}
+@media (max-width:1200px) {
+    .nav-item{
+        padding: 0;
+    }
+}
